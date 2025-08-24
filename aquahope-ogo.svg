@@ -1,0 +1,17 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Water drop shape -->
+  <path d="M16 2C16 2 8 10 8 18C8 22.4183 11.5817 26 16 26C20.4183 26 24 22.4183 24 18C24 10 16 2 16 2Z" fill="url(#waterGradient)"/>
+  
+  <!-- Inner highlight -->
+  <ellipse cx="13" cy="15" rx="2" ry="3" fill="rgba(255,255,255,0.3)"/>
+  
+  <!-- Wave pattern at bottom -->
+  <path d="M4 28C6 26 8 26 10 28C12 30 14 30 16 28C18 26 20 26 22 28C24 30 26 30 28 28" stroke="#14b8a6" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9"/>
+      <stop offset="100%" style="stop-color:#14b8a6"/>
+    </linearGradient>
+  </defs>
+</svg>
